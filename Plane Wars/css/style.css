@@ -1,0 +1,159 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: black;
+	overflow: hidden;
+	text-align: center;
+}
+
+#box {
+	width: 300px;
+	height: 500px;
+	border: 10px solid #FFF;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#box .title {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	margin: 45px auto;
+	font-weight: bold;
+}
+
+#box .start p {
+	width: 150px;
+	height: 40px;
+	background: white;
+	line-height: 40px;
+	margin: 45px auto;
+	font-size: 15px;
+	text-align: center;
+}
+
+#box .start p:hover {
+	background: mediumpurple;
+	cursor: pointer;
+}
+
+.plane {
+	position: absolute;
+	width: 25%;
+	height: 36px;
+}
+
+#box .bullet {
+	position: absolute;
+	width: 6px;
+	height: 18px;
+}
+
+.enemy {
+	position: absolute;
+	width: 23px;
+	height: 30px;
+}
+
+.scroll {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	color: white;
+}
+
+.oTip{
+	position: absolute;
+	margin: 70px 50px;
+	width: 200px;
+	height: 350px;
+	background: white;
+}
+
+.tTitle{
+	text-align: center;
+	padding: 35px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tRank,.tModel,.tScroll{
+	font-size: 12px;
+	color: black;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.pScroll{
+	font-size: 14px;
+	color: #F00;
+	text-align: center;
+	line-height: 40px;
+}
+
+.pModel{
+	font-size: 14px;
+	color: #0FC;
+	text-align: center;
+	line-height: 40px;
+}
+
+.pRank{
+	background: #FC0;
+	font-size: 14px;
+	color: #00FFCC;
+	width: auto;
+	font-weight: bold;
+	text-align: 10px;
+	padding: 10px;
+}
+
+.reStart{
+	width: 100px;
+	height: 40px;
+	border-radius: 2px;
+	margin: 25px auto;
+	display: block;
+}
+
+.author{
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

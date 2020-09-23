@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+	background: #444444;
+}
+
+
+/* img:标签选择器
+ */
+
+img {
+	/*position:指定定位方式(指定地位方式之后才会出现Z坐标)
+	  relative:相对定位(默认)
+	  absolute:绝对定位
+	  fixed:固定定位
+	 * */
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	background: white;
+	padding: 5px;
+	/*右偏移量   下偏移量  阴影渲染程度  
+	 rgba(‘red’,‘green’,‘blue’,‘alpha’:透明度) rgb=0-255;alpha=0-1;
+	 */
+	box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+	/*指定所有动画时间*/
+	transition: all 1.5s;
+}
+
+
+/* 类型选择器     .????
+ */
+
+.content {
+	width: 960px;
+	height: 500px;
+	/*margin:
+	 * 一个参数：上下左右
+	 * 二个参数：
+	 *       第一个参数代表上下
+	 *       地二个参数代表左右  
+	 */
+	margin: 60px auto;
+}
+
+
+/* 通配符:代表索所有标签
+ * margin:外边距
+ * padding:内边距
+ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*派生选择器*/
+
+.content .pic1 {
+	transform: rotate(10deg) translate(80px);
+}
+
+.content .pic2 {
+	transform: rotate(-20deg) translate(80px);
+}
+
+.content .pic3 {
+	transform: rotate(10deg) translate(80px);
+}
+
+.content .pic4 {
+	transform: rotate(-5deg) translate(80px);
+}
+
+.content .pic5 {
+	transform: rotate(15deg) translate(80px);
+}
+
+.content .pic6 {
+	transform: rotate(5deg) translate(130px);
+}
+
+.content .pic7 {
+	transform: rotate(18deg) translate(130px);
+}
+
+.content .pic8 {
+	transform: rotate(-25deg) translate(130px);
+}
+
+.content .pic9 {
+	transform: rotate(10deg) translate(130px);
+}
+
+
+/*鼠标悬停事件
+ * scale:放大(倍数) rotate:偏移角度  translate:平移
+ */
+
+.content img:hover {
+	z-index: 2;
+	transform: rotate(0deg) scale(1.2);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}

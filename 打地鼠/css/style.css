@@ -1,0 +1,25 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+.content {
+	width: 320px;
+	margin: 60px auto;
+}
+
+p {
+	width: 100px;
+	background: gold;
+	/*水平居中*/
+	text-align: center;
+	margin: 0px auto;
+	/*竖直居中*/
+	/*line-height: 120px;*/
+}

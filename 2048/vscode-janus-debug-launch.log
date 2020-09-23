@@ -1,0 +1,5 @@
+INFO |00007.162|JanusDebugSession: launchRequest
+DEBUG|00007.163|JanusDebugSession: my workspace: d:\workpage\实习项目\2048
+DEBUG|00007.304|DebugAdapterIPC: connect to VS Code extension (sock13848)
+DEBUG|00007.306|DebugAdapterIPC: connected to VS Code extension
+INFO |00007.204|JanusDebugSession: disconnectRequest
